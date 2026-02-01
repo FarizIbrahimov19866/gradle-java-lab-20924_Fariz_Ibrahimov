@@ -1,0 +1,17 @@
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+application {
+    mainClass = 'org.example.App'
+}
+
+repositories {
+    mavenCentral()
+}
